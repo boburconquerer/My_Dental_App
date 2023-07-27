@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".authorisation.RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="580dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/ovalled_rectangle"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:text="A Dental"
+                android:gravity="center"
+                android:textSize="23dp"
+                android:textColor="#4F7A98"
+                android:textStyle="bold"
+                android:shadowColor="@color/black"
+                android:shadowRadius="3"
+                android:shadowDx="2"
+                android:shadowDy="2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Registratsiya"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="#4F7A98" />
+
+            <EditText
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="ism"
+                android:textColorHint="#A5A2A2"
+                android:padding="7dp"
+                android:background="@drawable/ovalled_rectangle_stroke"
+                android:inputType="textPersonName"
+                android:textColor="#4F7A98"
+                android:textSize="16dp"
+                android:id="@+id/name_registration"/>
+
+            <EditText
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="familiya"
+                android:textColorHint="#A5A2A2"
+                android:padding="7dp"
+                android:background="@drawable/ovalled_rectangle_stroke"
+                android:inputType="textPersonName"
+                android:textColor="#4F7A98"
+                android:textSize="16dp"
+                android:id="@+id/last_name_registration"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="parol"
+                android:textColorHint="#A5A2A2"
+                android:padding="7dp"
+                android:background="@drawable/ovalled_rectangle_stroke"
+                android:inputType="textPassword"
+                android:textColor="#4F7A98"
+                android:textSize="16dp"
+                android:id="@+id/password_registration"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="registratsiya"
+                android:background="@drawable/gradient_edgeless_background"
+                android:textColor="#ECF1ED"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:id="@+id/registration_button"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Akkauntingiz bormi?"
+                android:textSize="20dp"
+                android:textColor="#5B84A1"/>
+            <TextView
+                android:layout_marginLeft="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textSize="20dp"
+                android:textColor="#ECF1ED"
+                android:id="@+id/loginFromHere"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

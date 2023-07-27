@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Patsient"
+    android:icon="@drawable/baseline_person_24"
+    android:id="@+id/patient_bottom"/>
+    <item android:title="Narxlar"
+        android:icon="@drawable/baseline_monetization_on_24"
+        android:id="@+id/price_list_bottom"/>
+    <item android:title="Jadval"
+        android:icon="@drawable/round_list_alt_24"
+        android:id="@+id/schedule_bottom"/>
+</menu>
