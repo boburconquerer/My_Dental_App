@@ -11,9 +11,10 @@
         android:background="#E1E4E6"
         android:elevation="6dp">
 
-        <ImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/patient_image"
             style="@style/make_circle"
+            android:scaleType="centerCrop"
             android:layout_width="92dp"
             android:layout_height="92dp"
             android:layout_gravity="center_vertical"
