@@ -7,6 +7,10 @@
     tools:context=".mainPageWithFragments.MainActivity"
     android:orientation="vertical">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_container"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
@@ -19,9 +23,10 @@
         app:itemIconTint="#EDF2EE"
         app:itemTextColor="#EDF2EE"
         android:elevation="10dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginRight="6dp"
-        android:layout_marginLeft="6dp"/>
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/bottom_navigation"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

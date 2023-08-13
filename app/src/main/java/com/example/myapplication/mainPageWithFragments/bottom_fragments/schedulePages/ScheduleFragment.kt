@@ -1,4 +1,4 @@
-package com.example.myapplication.mainPageWithFragments.bottom_fragments
+package com.example.myapplication.mainPageWithFragments.bottom_fragments.schedulePages
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

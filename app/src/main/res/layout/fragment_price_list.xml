@@ -2,13 +2,71 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".mainPageWithFragments.bottom_fragments.PriceListFragment">
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#D4D7DD"
+    android:layout_marginBottom="60dp">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="56dp"
+        android:background="#EDF2EE"
+        android:elevation="10dp">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:elevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/round_menu_24"
+                    android:layout_marginEnd="181dp"
+                    android:id="@+id/price_list_menu" />
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/round_search_24"
+                    android:id="@+id/price_list_search"
+                    android:layout_marginEnd="12dp"/>
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/round_add_24"
+                    android:id="@+id/price_list_add"
+                    android:layout_marginEnd="12dp"/>
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/round_language_24"
+                    android:id="@+id/price_list_language"
+                    android:layout_marginEnd="12dp"/>
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/round_calculate_24"
+                    android:id="@+id/calculate_price_list"
+                    android:layout_marginEnd="32dp"/>
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:id="@+id/price_list_recyclerView"/>
 
 </FrameLayout>
